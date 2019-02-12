@@ -1,0 +1,95 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Collection Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/javascript" href="assets/javascript/game.js">
+
+</head>
+
+
+<body>
+
+    <div class="container rounded" id="page-heading-container">
+        <h1 id="page-heading">Buffalo Bills Collector Game</h1>     
+    </div>
+
+    <div class="container rounded">
+        <div class="row">
+            <div class="col-9" id="instruction-container">
+                <p>You will be given a random number at the beginning of the game.</p>
+
+                <P>There are four buttons below, each button has a value, and by clicking on each button you will be adding values to your total.</P>
+    
+                <p>You will win the game by matching the value of your buttons, to the random number you are given.</p>
+
+                <p>You will lose if the value of your buttons goes above the random number you are given</p>
+
+                <p>The value of the buttons are hidden until you click on them.</p>
+
+                <p>Each time the game starts, the random number will change ALONG with the values of the buttons!!</p>
+
+                <p id="good-luck-text">GOOD LUCK!!</p>
+            </div>
+            <div class="col-3" id="randomNumberBox">
+                <p id="randomNumber">Number to Match:</p>
+                <p id="generatedNumber"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container rounded" id="score">
+        <div class="row">
+            <div class="col-6" id="yourGuessBox">
+                <p id="numberToGuess">Your Guess Total: </p>
+            </div>
+            <div class="col-6" id="scoreCard">
+                <p id="wins">Wins: </p>
+                <p id="losses">Losses: </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container rounded"  id="pushButtons">
+        <div class="row">
+          <div class="img-fluid" alt="Responsive image" id="LogoButton">
+            <img src="assets/images/Logo.png">
+          </div>
+          <div class="img-fluid" alt="Responsive image" id="redHelmetButton">
+            <img src="assets/images/redHelmet.png">
+          </div>
+          <div class="img-fluid" alt="Responsive image" id="newHelmetButton">
+            <img src="assets/images/newHelmet.png">
+          </div>
+          <div class="img-fluid" alt="Responsive image" id="oldSchoolLogoButton">
+           <img src="assets/images/oldSchoolLogo.png">
+          </div>          
+        </div>
+      </div>
+
+
+
+<script>
+
+
+
+
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="assets/javascript/game.js"></script>
+    
+</body>
+</html>
